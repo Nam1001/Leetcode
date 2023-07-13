@@ -9,7 +9,7 @@ int main(){
             ans.push_back(arr[i]);
         }
         else if(arr[i][0]<=ans.back()[1]){
-            ans.back()[1]=max(arr[i][1],ans.back()[1]);
+            ans.back()[1]=max(arr[i][1],ans.back()[1]); 
 
         }
         else{
